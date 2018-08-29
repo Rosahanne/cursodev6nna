@@ -11,23 +11,37 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-    <center>
-        <h1><b>Abra uma conta</b></h1>
+        
+    	<fieldset>
+
+            <legend>Abra uma conta</legend>
         <h2><b>É gratuito e sempre será!</b></h2>
+    
         <form action=“acaoPagina.jsp”>
 
-            <table border> 
-                
+            <table border>
+
 
                 <p><input type="text" size="30" name="Nome" placeholder="Nome"> 
                 <input type="text" size="30" name="SobreNome" placeholder="Sobrenome"></p>
                 <p><input type="text" size="65" e-mail="E-mail" placeholder="E-mail ou número de celular"> </p>
                 <p><input type="text" size="65" name="sobreNome" placeholder="Insira novamente o e-mail ou o celular"></p>
+                <p><input type="password" size="65" senha="senha" placeholder="Nova Senha"><br/></p>
+                <p><h2><b>Aniversário</b></h2></p>
+                <input type="date" name=“nasc">
+                <p><input type="radio" name="genero" value="M">Masculino
+                <input type="radio" name="genero" value="F">Feminino<br/></p>
+
+
 
 
             </table>
-    </center>
 
-</form>
-</body>
+
+
+        </form>
+        
+        	</fieldset>
+
+    </body>
 </html>
