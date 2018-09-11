@@ -1,3 +1,36 @@
-Dados Pessoais {color:lightblue;
-font-size: 16pt;}
+#DadosPessoais
+{background-color: lightblue;
+}
 
+#DadosPessoais legend
+{background-color: lightblue;
+}
+
+#DadosProfissionais
+{background-color: pink;
+}
+
+#DadosProfissionais legend
+{background-color: pink;
+}
+
+#Acoes
+{background-color: lightgreen;
+}
+
+#Acoes legend
+{background-color: lightgreen;
+}
+
+textarea, input, select
+{background-color: khaki
+    
+}
+
+#enviar
+{background-color: darkgreen;
+}
+
+#limpar
+{background-color: coral;
+}

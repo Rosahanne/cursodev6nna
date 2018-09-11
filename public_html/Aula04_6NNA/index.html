@@ -1,84 +1,93 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <link href="Estilo.css" rel="stylesheet">
-
     </head>
     <body>
+        <form>
 
-
-    <center> <div><h2><b>Formulário de Cadastro</b></h2></div></center>
-    <fieldset>
-
-        <legend>
-            Dados Pessoais
-        </legend>
+            <center><h2><b>Formulário de Cadastro</b></h2></center>
 
 
 
-        <form action=“acaoPagina.jsp”>
+            <fieldset id="DadosPessoais">
 
-            <table border>
+                <legend>
+                    Dados Pessoais
+                </legend>
+
+                <table border>
+
+                    <b>Nome</b>
+                    <input type="text" name="Nome" placeholder="" required>
+                    <br>
+                    <b>E-mail</b>
+                    <input type="text" e-mail="E-mail" placeholder="" required>
+                    <br>
+                    <b>Cidade</b>
+                    <input type="text" cidade="cidade" placeholder="" required>
+                    <br>
+
+                    <b>Estado</b>
+                    <select>
+                        <option value="PA">Pará</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="RR">Roraima</option>
+                        <option value="RO">Rondônia</option>
+                    </select>
+                    <br>
+                </table>
+
+            </fieldset>
+
+            <fieldset id="DadosProfissionais">
+                <legend>
+                    Dados Profissionais
+                </legend>
 
 
-                <p><h4><b>Nome</b></h4><input type="text" size="15" name="Nome"> 
-                <p><h4><b>E-mail</b></h4><input type="text" size="15" e-mail="E-mail"> </p>
-                <p><h4><b>Cidade</b></h4><input type="text" size="15" cidade="cidade"></p>
+                <table border>
+                    <p><h4><b>Cargo Pretendido</b></h4>
+                    <input type="radio" name="cargo" value="Analista de Sistemas">Analista de Sistemas
+                    <input type="radio" name="cargo" value="Analista de Banco de Dados">Analista de Banco de Dados
+                    <input type="radio" name="cargo" value="Analista de Suporte">Analista de Suporte<br/>
+                </table>
+                <table border>
+                    <p><h4><b>Tecnologia de Interesse</b></h4>
+                    <input type="checkbox" name="op1" value="Java">JAVA
+                    <input type="checkbox" name="op2" value="HTML,CSS">HTML,CSS
+                    <input type="checkbox" name="op3" value="JavaScript">JavaScript
+                    <input type="checkbox" name="op4" value="SQL">SQL<br/>
+                </table>
+                <table border>
 
-                <p><h4><b>Estado</b></h4></p>
-                <select>
-                    <option value="PA">Pará</option>
-                    <option value="AM">Amazonas</option>
-                    <option value="RR">Roraima</option>
-                    <option value="RO">Rondônia</option>
-                </select>
-            </table>
-    </fieldset>
-    <fieldset>
-        <legend>
-            Dados Profissionais
-        </legend>
+                    <p><h4><b>Mini Currículo</b></h4>
+                    <textarea cols="90" cows="5"name="Mini Currículo"></textarea>
 
-        <form action=“acaoPagina.jsp”>
+                </table>
+            </fieldset>
 
-            <table border>
-                <p><h4><b>Cargo Pretendido</b></h4>
-                <input type="radio" name="cargo" value="Analista de Sistemas">Analista de Sistemas
-                <input type="radio" name="cargo" value="Analista de Banco de Dados">Analista de Banco de Dados
-                <input type="radio" name="cargo" value="Analista de Suporte">Analista de Suporte<br/>
-            </table>
-            <table border>
-                <p><h4><b>Tecnologia de Interesse</b></h4>
-                <input type="checkbox" name="op1" value="Java">JAVA
-                <input type="checkbox" name="op2" value="HTML,CSS">HTML,CSS
-                <input type="checkbox" name="op3" value="JavaScript">JavaScript
-                <input type="checkbox" name="op4" value="SQL">SQL<br/>
-            </table>
-            <table border>
-                <p><h4><b>Mini Currículo</b></h4>
-                <textarea cols="90" cows="5"name="Mini Currículo"></textarea>
+            <fieldset id="Acoes">
 
-            </table>
-            <fieldset>
                 <legend>
                     Ações
                 </legend>
 
-                <form action=“acaoPagina.jsp”>
 
-                    <table border>
-                        <input type="button" value="Enviar">
-                        <input type="button" value="Limpar">
-                    </table>
-                </form>
 
-            </fieldset>
-            </body>
-            </html>
+                <table border>
+
+                    <input type="submit" value="Enviar" id="enviar">
+                    
+                    <input type="reset" value="Limpar" id="limpar">
+                </table>
+        </form>
+
+    </fieldset>
+
+</form>
+</body>
+</html>
