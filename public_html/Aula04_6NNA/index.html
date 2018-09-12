@@ -15,9 +15,7 @@
 
             <fieldset id="DadosPessoais">
 
-                <legend>
-                    Dados Pessoais
-                </legend>
+                <legend>Dados Pessoais</legend>
 
                 <table border>
 
@@ -33,21 +31,21 @@
 
                     <b>Estado</b>
                     <select>
+                        <option value="PA">Escolha</option>
                         <option value="PA">Pará</option>
                         <option value="AM">Amazonas</option>
                         <option value="RR">Roraima</option>
                         <option value="RO">Rondônia</option>
                     </select>
                     <br>
+                
                 </table>
 
             </fieldset>
 
             <fieldset id="DadosProfissionais">
-                <legend>
-                    Dados Profissionais
-                </legend>
-
+                
+                <legend>Dados Profissionais</legend>
 
                 <table border>
                     <p><h4><b>Cargo Pretendido</b></h4>
@@ -55,6 +53,7 @@
                     <input type="radio" name="cargo" value="Analista de Banco de Dados">Analista de Banco de Dados
                     <input type="radio" name="cargo" value="Analista de Suporte">Analista de Suporte<br/>
                 </table>
+                
                 <table border>
                     <p><h4><b>Tecnologia de Interesse</b></h4>
                     <input type="checkbox" name="op1" value="Java">JAVA
@@ -62,6 +61,7 @@
                     <input type="checkbox" name="op3" value="JavaScript">JavaScript
                     <input type="checkbox" name="op4" value="SQL">SQL<br/>
                 </table>
+                
                 <table border>
 
                     <p><h4><b>Mini Currículo</b></h4>
@@ -72,17 +72,15 @@
 
             <fieldset id="Acoes">
 
-                <legend>
-                    Ações
-                </legend>
+                <legend>Ações</legend>
 
 
 
                 <table border>
+                    <button class="btn"><input type="submit" value="Enviar" id="enviar"></button>
+                   
+                    <button class="btn"><input type="reset" value="Limpar" id="limpar"></button>
 
-                    <input type="submit" value="Enviar" id="enviar">
-                    
-                    <input type="reset" value="Limpar" id="limpar">
                 </table>
         </form>
 
