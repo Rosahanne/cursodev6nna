@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+
+            var peso = 80;
+            var altura = 158;
+            var IMC;
+            IMC = peso / (altura * altura);
+            console.log("IMC é: " + IMC);
+            if (IMC <= 24, 9) {
+                console.log("Peso Ideal!");
+            } else {
+                console.log("Acima do peso");
+            }
+            function mostrarAlerta() {
+                alert("Olá JS!");
+            }
+
+            function soma() {
+                var integer1 = document.getElementById("Integer1").value;
+                var integer2 = document.getElementById("Integer2").value;
+                integer1 = parseFloat(integer1);
+                integer2 = parseFloat(integer2);
+                var resultado = integer1 + integer2;
+                document.getElementById("resultado").value = resultado;
+
+            }
+
+            function subtracao() {
+                var integer1 = document.getElementById("Integer1").value;
+                var integer2 = document.getElementById("Integer2").value;
+                integer1 = parseFloat(integer1);
+                integer2 = parseFloat(integer2);
+                var resultado = integer1 - integer2;
+                document.getElementById("resultado").value = resultado;
+            }
+
+            function multiplicacao() {
+                var integer1 = document.getElementById("Integer1").value;
+                var integer2 = document.getElementById("Integer2").value;
+                integer1 = parseFloat(integer1);
+                integer2 = parseFloat(integer2);
+                var resultado = integer1 * integer2;
+                document.getElementById("resultado").value = resultado;
+            }
+
+            function divisao() {
+                var integer1 = document.getElementById("Integer1").value;
+                var integer2 = document.getElementById("Integer2").value;
+                integer1 = parseFloat(integer1);
+                integer2 = parseFloat(integer2);
+                var resultado = integer1 / integer2;
+                document.getElementById("resultado").value = resultado;
+            }
+
+        </script>
+
+    </head>
+    <body>
+
+    <center>
+        <h1><b>Calculadora (HTML + Javascript): </b></h1>
+        <form action=“acaoPagina.jsp”>
+
+            <table> 
+
+                <p><tr><th>#1:</th><th><input type="Integer" id="Integer1" integer1="#1"></p>
+                    </th></tr>
+                <p><tr><th>#2:</th><th><input type="Integer" id="Integer2" integer2="#2"></p>
+                    </th></tr>
+                <td><input type="button" value="+" onclick="soma();"></td>
+                <td><input type="button" value="-" onclick="subtracao();"></td>
+                <td><input type="button" value="*" onclick="multiplicacao();"></td>
+                <td><input type="button" value="/" onclick="divisao();"></td>
+            </table>
+
+            Resultado:<input type="Integer" id="resultado">
+
+            </center>
+
+            <! <input type="button" onClick="mostrarAlerta()" value="Alerta"/>
+
+
+            </body>
+            </html>
