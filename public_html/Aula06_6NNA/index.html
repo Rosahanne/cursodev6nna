@@ -2,7 +2,8 @@
 
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title></title>
+        <link href="Estilo.css"  rel="stylesheet">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script>
@@ -61,8 +62,10 @@
         </script>
 
     </head>
+    
+    
     <body>
-
+        
     <center>
         <h1><b>Calculadora (HTML + Javascript): </b></h1>
         <form action=“acaoPagina.jsp”>
@@ -73,17 +76,29 @@
                     </th></tr>
                 <p><tr><th>#2:</th><th><input type="Integer" id="Integer2" integer2="#2"></p>
                     </th></tr>
-                <td><input type="button" value="+" onclick="soma();"></td>
-                <td><input type="button" value="-" onclick="subtracao();"></td>
-                <td><input type="button" value="*" onclick="multiplicacao();"></td>
-                <td><input type="button" value="/" onclick="divisao();"></td>
             </table>
-
+            
+            <strong> 
+            <b>
+            <input type="button" id="botão" size= "35" value="+" onclick="soma();">
+            <input type="button" id="botão" size= "35" value="-" onclick="subtracao();">
+            <input type="button" id="botão" size= "35" value="*" onclick="multiplicacao();">
+            <input type="button" id="botão" size= "35" value="/" onclick="divisao();">
+            </b>
+            <p></p>
+            
+            
+           
             Resultado:<input type="Integer" id="resultado">
+            
+            <b><input type="reset" id="botão" value="Limpar"></b></strong>
 
-            </center>
+
+            
 
             <! <input type="button" onClick="mostrarAlerta()" value="Alerta"/>
+
+            
 
 
             </body>
