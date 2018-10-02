@@ -16,3 +16,4 @@ $('h1').next(function () {
 
 })
 
+$(document).textoInterno { (function(font-size: 12pt; color: blue;) }

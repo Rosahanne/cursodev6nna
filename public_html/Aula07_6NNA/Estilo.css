@@ -1,0 +1,17 @@
+
+
+#divTopo { width: 90%;}
+
+h2 { padding-top: 40px; }
+
+#textoExterno {
+
+font-family: Arial;
+font-weight: bold; 
+font-size: 12pt;
+
+color: blue; 
+
+}
+
+.textoInterno { font-size: 12pt; color: blue; }
