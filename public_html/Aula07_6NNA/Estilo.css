@@ -7,11 +7,12 @@ h2 { padding-top: 40px; }
 #textoExterno {
 
 font-family: Arial;
-font-weight: bold; 
-font-size: 12pt;
+font-weight: bold;
 
-color: blue; 
+
 
 }
 
 .textoInterno { font-size: 12pt; color: blue; }
+
+p { color: red; }
