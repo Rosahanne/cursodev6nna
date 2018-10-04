@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TODO supply a title</title>
+        <script src="Libs_SimulAV1/JQuery-3.3.1/jquery-3.3.1.min.js"></script>
+        <script src="Libs_SimulAV1/Bootstrap/bootstrap.min.js"></script>
+        <link href="Libs_SimulAV1/Bootstrap/bootstrap.min.css" rel="stylesheet">
+        <script src="page.js"></script>
+
+        <script>
+
+            function triangulo() {
+                var baseT = document.getElementById("Base").value;
+                var alturaT = document.getElementById("Altura").value;
+                baseT = parseFloat(baseT);
+                baseT = parseFloat(baseT);
+                var Area = baseT + integer2;
+                document.getElementById("Area").value = Area;
+
+            }
+
+            function quadrado() {
+                var integer1 = document.getElementById("Integer1").value;
+                var integer2 = document.getElementById("Integer2").value;
+                integer1 = parseFloat(integer1);
+                integer2 = parseFloat(integer2);
+                var resultado = integer1 - integer2;
+                document.getElementById("resultado").value = resultado;
+            }
+
+            function circulo() {
+                var integer1 = document.getElementById("Integer1").value;
+                var integer2 = document.getElementById("Integer2").value;
+                integer1 = parseFloat(integer1);
+                integer2 = parseFloat(integer2);
+                var resultado = integer1 * integer2;
+                document.getElementById("resultado").value = resultado;
+            }
+
+            function retangulo() {
+                var integer1 = document.getElementById("Integer1").value;
+                var integer2 = document.getElementById("Integer2").value;
+                integer1 = parseFloat(integer1);
+                integer2 = parseFloat(integer2);
+                var resultado = integer1 / integer2;
+                document.getElementById("resultado").value = resultado;
+            }
+
+            function trapezio() {
+                var integer1 = document.getElementById("Integer1").value;
+                var integer2 = document.getElementById("Integer2").value;
+                integer1 = parseFloat(integer1);
+                integer2 = parseFloat(integer2);
+                var resultado = integer1 / integer2;
+                document.getElementById("resultado").value = resultado;
+            }
+
+        </script>
+    </head>
+    <body>
+    <center>
+        <h3><b>Página Inicial do Sistema: </b></h3>
+
+        <table border> 
+            <tr>
+                <th>Triângulo</th>
+                <th>Quadrado</th>
+                <th>Círculo</th>
+                <th>Retangulo</th>
+                <th>Trapézio</th>
+            </tr>
+            <tr>
+                <td><img width="230" src="Imagens/triangulo.png"></td>
+                <td><img width="230" src="Imagens/quadrado.png"></td>
+                <td><img width="230" src="Imagens/circulo.png"></td>
+                <td><img width="230" src="Imagens/retangulo.png"></td>
+                <td><img width="240" src="Imagens/trapezio.png"></td>
+            </tr>
+            <tr>
+                <td>Base:<input type="text"></td>
+                <td>Lado:<input type="text"></td>
+                <td>Raio:<input type="text"></td>
+                <td>Base:<input type="text"></td>
+                <td>Base Maior:<input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Altura:<input type="text"></td>
+                <td></td>
+                <td></td>
+                <td>Altura:<input type="text"></td>
+                <td>Base Menor<input type="text"></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Altura:<input type="text"></td>
+            </tr>
+            
+            
+            <tr>
+                <center>
+                <td><input type="button" name="Calcular Área" value="Calcular Área"></td>
+                <td><input type="button" name="Calcular Área" value="Calcular Área"></td>
+                <td><input type="button" name="Calcular Área" value="Calcular Área"></td>
+                <td><input type="button" name="Calcular Área" value="Calcular Área"></td>
+                <td><input type="button" name="Calcular Área" value="Calcular Área"></td>
+                </center>
+            </tr>
+            
+            
+            <tr>
+                <td>Área: <input type="text" id="resultado"></td>
+                <td>Área: <input type="text" id="resultado"></td>
+                <td>Área: <input type="text" id="resultado"></td>
+                <td>Área: <input type="text" id="resultado"></td>
+                <td>Área: <input type="text" id="resultado"></td>
+            </tr>
+
+
+        </table>
+
+
+
+
+    </body>
+</html>
