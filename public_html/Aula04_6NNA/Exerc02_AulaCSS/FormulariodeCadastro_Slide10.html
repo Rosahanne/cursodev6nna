@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        
+    </head>
+    <body>
+        <form>
+
+            <center><h2><b>Formulário de Cadastro</b></h2></center>
+
+
+
+            <fieldset id="DadosPessoais">
+
+                <legend>Dados Pessoais</legend>
+
+                <table border>
+
+                    <b>Nome</b>
+                    <input type="text" name="Nome" placeholder="" required>
+                    <br>
+                    <b>E-mail</b>
+                    <input type="text" e-mail="E-mail" placeholder="" required>
+                    <br>
+                    <b>Cidade</b>
+                    <input type="text" cidade="cidade" placeholder="" required>
+                    <br>
+
+                    <b>Estado</b>
+                    <select>
+                        <option value="PA">Escolha</option>
+                        <option value="PA">Pará</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="RR">Roraima</option>
+                        <option value="RO">Rondônia</option>
+                    </select>
+                    <br>
+                
+                </table>
+
+            </fieldset>
+
+            <fieldset id="DadosProfissionais">
+                
+                <legend>Dados Profissionais</legend>
+
+                <table border>
+                    <p><h4><b>Cargo Pretendido</b></h4>
+                    <input type="radio" name="cargo" value="Analista de Sistemas">Analista de Sistemas
+                    <input type="radio" name="cargo" value="Analista de Banco de Dados">Analista de Banco de Dados
+                    <input type="radio" name="cargo" value="Analista de Suporte">Analista de Suporte<br/>
+                </table>
+                
+                <table border>
+                    <p><h4><b>Tecnologia de Interesse</b></h4>
+                    <input type="checkbox" name="op1" value="Java">JAVA
+                    <input type="checkbox" name="op2" value="HTML,CSS">HTML,CSS
+                    <input type="checkbox" name="op3" value="JavaScript">JavaScript
+                    <input type="checkbox" name="op4" value="SQL">SQL<br/>
+                </table>
+                
+                <table border>
+
+                    <p><h4><b>Mini Currículo</b></h4>
+                    <textarea cols="90" cows="5"name="Mini Currículo"></textarea>
+
+                </table>
+            </fieldset>
+
+            <fieldset id="Acoes">
+
+                <legend>Ações</legend>
+
+
+
+                <table border>
+                    <button class="btn"><input type="submit" value="Enviar" id="enviar"></button>
+                   
+                    <button class="btn"><input type="reset" value="Limpar" id="limpar"></button>
+
+                </table>
+        </form>
+
+    </fieldset>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,56 @@
+
+
+#ElementoVerde1{ 
+    margin-top: 10px; 
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 1px 1px;
+    width: 1300px;
+    height: 100px;
+    background-color: #6AA84F;
+    font-family: Arial;
+}
+
+#ElementoVerde2{ 
+    margin-top: 10px; 
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 1px 1px;
+    width: 1300px;
+    height: 100px;
+    background-color: #6AA84F;
+    font-family: Arial;
+}
+#ElementoCinza1{ 
+    margin-top: 10px; 
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 1px 1px;
+    width: 1300px;
+    height: 150px;
+    background-color: silver;
+    font-family: Arial;
+}
+
+#ElementoCinza2{ 
+    margin-top: 10px; 
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 1px 1px;
+    width: 1300px;
+    height: 150px;
+    background-color: silver;
+    font-family: Arial;
+
+    
+}
+
+#marginImg{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+

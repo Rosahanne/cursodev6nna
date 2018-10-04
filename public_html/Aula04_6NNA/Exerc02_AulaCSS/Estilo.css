@@ -1,10 +1,41 @@
+#DadosPessoais
+{background-color: lightblue;
+}
+
+#DadosPessoais legend
+{background-color: lightblue;
+}
+
+#DadosProfissionais
+{background-color: pink;
+}
+
+#DadosProfissionais legend
+{background-color: pink;
+}
+
+#Acoes
+{background-color: lightgreen;
+}
+
+#Acoes legend
+{background-color: lightgreen;
+}
+
+textarea, input, select
+{background-color: khaki
+    
+}
+
+#enviar
+{background-color: darkgreen;
+ color: white;
+ 
+}
+
+#limpar
+{background-color: coral;
+ color: white;
+}
 
 
-
-
-
-
-
-#divTopo { width: 90%;}
-
-h2 { padding-top: 40px; }
